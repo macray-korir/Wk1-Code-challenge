@@ -48,29 +48,3 @@ if (demeritPoints > 0) {
 } else {
   console.log("Ok");
 }
-
-
-// Challenge 3: Net Salary Calculator
-// Write a program to calculate an individual's Net Salary.
-
-// Prompt the user for basic salary and benefits
-let basicSalary = prompt("Enter basic salary:");
-let benefits = prompt("Enter benefits:");
-
-// Convert the inputs to numbers
-let salary = parseInt(basicSalary);
-let benefitsAmount = parseInt(benefits);
-
-// Calculate tax, NHIF deductions, NSSF deductions, gross salary, and net salary
-let tax = 0.1 * salary;
-let NHIFDeductions = 0.02 * salary;
-let NSSFDeductions = 0.06 * salary;
-let grossSalary = salary + benefitsAmount;
-let netSalary = grossSalary - (tax + NHIFDeductions + NSSFDeductions);
-
-// Output the calculated values
-console.log("Payee (Tax): " + tax);
-console.log("NHIF Deductions: " + NHIFDeductions);
-console.log("NSSF Deductions: " + NSSFDeductions);
-console.log("Gross Salary: " + grossSalary);
-console.log("Net Salary: " + netSalary);

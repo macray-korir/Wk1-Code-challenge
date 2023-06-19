@@ -25,6 +25,10 @@ if (studentMarks > 79) {
 // Output the grade
 console.log("Grade: " + grade);
 
+// Display the result on the page
+document.getElementById('output').innerHTML = `Student Grade: ${grade}`;
+
+
 
 // Challenge 2: Speed Detector
 // Write a program that takes as input the speed of a car, and determines the demerit points.
@@ -48,6 +52,7 @@ if (demeritPoints > 0) {
 } else {
   console.log("Ok");
 }
+document.getElementById('output').innerHTML += `<br>Demerit Points: ${demeritPoints}`;
 
 
 // Challenge 3: Net Salary Calculator
@@ -74,3 +79,5 @@ console.log("NHIF Deductions: " + NHIFDeductions);
 console.log("NSSF Deductions: " + NSSFDeductions);
 console.log("Gross Salary: " + grossSalary);
 console.log("Net Salary: " + netSalary);
+
+document.getElementById('output').innerHTML += `<br>Net Salary: ${netSalary.toFixed(2)}`;

@@ -7,11 +7,11 @@ This repository contains JavaScript solutions to three challenges: Student Grade
 ## Project Setup
 To run the JavaScript code, follow these steps:
 
-1. Clone the repository:git@github.com:macray-korir/Wk1-Code-challenge.git
+1. Clone the repository:git@github.com:'macray-korir/Wk1-Code-challenge.git'
 
 2. Open the `index.html` file in a web browser.
 
-3. Follow the prompts and view the results in the browser's console.
+3. Follow the prompts and view the results in the browser.
 
 ## Author & License
 Author: Macray Korir
